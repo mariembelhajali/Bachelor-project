@@ -53,13 +53,13 @@ for the second tab which is the all tab:
 	. it's have the same panel as the first one, so we can filter our results using feature and /or action.
 The third tab is the history mode:
 In the history mode we will plot histograms of the average of all day of a month, all hours of a day or all minute of an hour.
-	. The user will see by default the average of all days in the first month of our database.
+. The user will see by default the average of all days in the first month of our database.
 	
-	. If the user user put the year and the month then he click on show, he will display the average over all day of that month
+. If the user user put the year and the month then he click on show, he will display the average over all day of that month
 	
-	. If he add also the day, he will get the average of all hour of the specified day
+. If he add also the day, he will get the average of all hour of the specified day
 	
-	. He can also choose an hour of the day so that he will get the average of all minutes
+. He can also choose an hour of the day so that he will get the average of all minutes
 
 Attention: Please do not try to trick the interface: choose either year month , year month day or year month day and hour. Those may run exceptions.
 Also in the history mode the user can select a feature and/or action.
