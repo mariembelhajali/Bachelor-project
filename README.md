@@ -1,22 +1,22 @@
-Pocket Campus data analysis  GUI
+# Pocket Campus data analysis  GUI
 
 This application is designed for Pocket Campus.
 
 
-Requirements: 
+## Requirements: 
 
 To be able to run the program and to take advantage of it's features you need to install some softwares and to set them as we will explain next.
 
-- Eclipse Oxygen : http://www.eclipse.org/downloads/eclipse-packages/
-- SQL Server(Free version will be only valid for 6 months): https://www.microsoft.com/en-us/sql-server/sql-server-downloads
-- Install the external Jars that we attached with the project code folder:
+. Eclipse Oxygen : http://www.eclipse.org/downloads/eclipse-packages/
+. SQL Server(Free version will be only valid for 6 months): https://www.microsoft.com/en-us/sql-server/sql-server-downloads
+.  Install the external Jars that we attached with the project code folder:
 	. right click on the project folder in eclipse
 	. choose build path 
 	. add external jars
 	. apply and close
-- include JfreeChart 
+. include JfreeChart 
 
-Execution:
+## Execution:
 
 After doing the previous installations you can now execute the project as follow: 
 1) First of all we have registered procedure in the Class JavaSqlFiles that we need to execute them, in the project folder we attached an sql file. 
@@ -30,7 +30,7 @@ So we must change the path of the Sql file in our java class to be able to run i
 - We need only to execute this java with 'Run' on eclipse.
 - A login interface will pop-up in order to specify the logins: host name, database name, user and password.
 
-Interface parameters: 
+## Interface parameters: 
 
 Our java client go to database an execute the queries in sql file and plot the corresponding results. 
 You will see three tabs: separated , all and static
