@@ -33,15 +33,22 @@ So we must change the path of the Sql file in our java class to be able to run i
 ## Interface parameters: 
 
 Our java client go to database an execute the queries in sql file and plot the corresponding results. 
+
 You will see three tabs: separated , all and static
+
 The first and the second tabs are related, they have the same button panel. 
+
 The static mode have it's own button panel.
+
 Let's start with dynamic mode-> separated : 
+
 the observer will see three separated plots: the average , 99 percentile and 95 percentile
+
 in the bottom of the first page the will be panel that contain two scrollable list:
-	. The first one is choose feature: This is by default set to All
-	. The second one is choose actions: This is by default is set to All.
+	- The first one is choose feature: This is by default set to All
+	- The second one is choose actions: This is by default is set to All.
 	==> we can filter our data using a specified action or feature but every time we change we need to refresh the page by clicking the button show.
+	
 for the second tab which is the all tab:
 	. it's have the same panel as the first one, so we can filter our results using feature and /or action.
 The third tab is the history mode:
@@ -53,7 +60,7 @@ In the history mode we will plot histograms of the average of all day of a month
 Attention: Please do not try to trick the interface: choose either year month , year month day or year month day and hour. Those may run exceptions.
 Also in the history mode the user can select a feature and/or action.
 
-Authors:
-.Sirin utku
-.Mariem Belhaj Ali
-.Mouadh Hamdi
+## Authors:
+. Sirin utku
+. Mariem Belhaj Ali
+. Mouadh Hamdi
